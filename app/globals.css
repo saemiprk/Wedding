@@ -1,0 +1,48 @@
+@import "react-image-gallery/styles/css/image-gallery.css";
+@import 'react-calendar/dist/Calendar.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "GowunBatang";
+    font-weight: normal;
+    src: url("/fonts/GowunBatang-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "GowunBatang";
+    font-weight: bold;
+    src: url("/fonts/GowunBatang-Bold.ttf") format("truetype");
+}
+
+body * {
+    font-family: "GowunBatang";
+    font-weight: normal;
+}
+
+/* Image Gallery */
+.image-gallery-content{
+    height: 100%;
+}
+.image-gallery-slide-wrapper{
+    height: 100%;
+}
+.image-gallery-slides{
+    height: 400px;
+}
+.image-gallery-slides img{
+    height: 400px;
+}
+
+/* Calendar */
+.react-calendar__tile:enabled:focus{
+    background-color: transparent;
+}
+.react-calendar__tile--active{
+  background-color: #f590b6 !important;
+  border-radius: 0.5em;
+}
+.react-calendar__month-view__weekdays__weekday abbr{
+  text-decoration-line: none;
+}
