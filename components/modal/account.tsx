@@ -20,26 +20,23 @@ export default function ModalAccount({type}){
         return (
             <div>
                 <div className="border-b pb-2">
-                    <h1 className="font-bold pb-2">신랑</h1>
+                    <h1 className="flex items-center font-bold pb-2">신랑 <span className="mx-2">이태현</span></h1>
                     <div className="flex justify-between items-center">
-                        <span>이태현</span>
-                        <span>우리은행 <b>1104444444</b></span>
+                        <span className="text-sm">우리은행 <b>1104444444</b></span>
                         <button type="button" className="bg-gray-200 p-1 shadow rounded text-sm" onClick={buttonClick}>복사하기</button>
                     </div>
                 </div>
                 <div className="border-b py-2">
-                    <h1 className="font-bold pb-2">신랑 아버지</h1>
+                    <h1 className="font-bold pb-2">신랑 아버지 <span className="mx-2">이상규</span></h1>
                     <div className="flex justify-between items-center">
-                        <span>이상규</span>
-                        <span>우리은행 <b>1108884444</b></span>
+                        <span className="text-sm">우리은행 <b>1108884444</b></span>
                         <button type="button" className="bg-gray-200 p-1 shadow rounded text-sm" onClick={buttonClick}>복사하기</button>
                     </div>
                 </div>
                 <div className="pt-2">
-                    <h1 className="font-bold pb-2">신랑 어머니</h1>
+                    <h1 className="font-bold pb-2">신랑 어머니 <span className="mx-2">정문숙</span></h1>
                     <div className="flex justify-between items-center">
-                        <span>정문숙</span>
-                        <span>우리은행 <b>1104zzz444444</b></span>
+                        <span className="text-sm">우리은행 <b>1104zzz444444</b></span>
                         <button type="button" className="bg-gray-200 p-1 shadow rounded text-sm" onClick={buttonClick}>복사하기</button>
                     </div>
                 </div>
